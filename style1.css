@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background: url("背景.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.daohang{
+	width: 1600px;
+	height: 45px;
+	background-color: rgba(255,255,255,0.6);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.box{
+	width: 320px;
+	height: 45px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	vertical-align: middle;
+	float: left;
+	border-right: 4px medium rgba(238,77,0,1.00) 
+	
+	
+}
+a{
+	font-family: 华文新魏;
+	font-size: 40px;
+	font-weight: 1000;
+	text-decoration: none;
+}
+.box a{
+		color: #003F00;
+	   }
+.box a:hover{
+		color: #5B9550;
+			
+	   }
+.box1{      
+	margin-top: 15px;
+	width: 1600px;
+	height: 610px;
+	background-color:rgba(156,229,255,0.4);
+		}
+.box2{
+	height: 100px;
+	width: 100px;
+	background-color:rgba(157,149,150,0.5);
+	vertical-align: middle;
+	background-image: url( "猫爪.jpg");
+	background-repeat:round;
+	border-radius: 50px;
+	margin-left: 250px;
+	box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.7);
+}
+.box3{
+	height: 600px;
+	width:900px;
+	vertical-align: middle;
+	margin-right: 5px;
+	border-radius: 40px;
+	position: relative;
+	-webkit-box-reflect:blow 2px linear-gradient(transparent 70%,rgba(0,0,0,0.2));
+	
+}
+.box4{
+	height:100px;
+	width:100px;
+	background-color:rgba(157,149,150,0.5);
+	vertical-align: middle;
+	background-image: url("猫爪2.jpg");
+	background-repeat:round;
+	border-radius: 50px;
+	box-shadow: 4px 4px 4px 4px rgba(255,255,255,0.7);
+}
+.biaoti{
+	height: 250px;
+	width: 1600px;
+	text-align: center;
+	vertical-align: middle;
+}
+h1{
+	color:#CB633C;
+	font-family: 方正舒体;
+	font-weight: bolder;
+	font-size: 240px;
+}
+p{
+	color: white;
+	font-family: 华文琥珀;
+	font-size: 50px;
+	display: block;
+	position:absolute;
+	bottom: 0px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.box5{
+	height:400px;
+	width:300px;
+	background-color: rgba(33,34,30,0.6);
+	display: flex;
+	border-radius: 50px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 80px;
+	
+
+}
+.box6{
+	height:400px;
+	width: 300px;
+	position: absolute;
+	border-radius: 40px;
+	box-shadow: 0 0 15px rgb(0,0,0);
+	backface-visibility: hidden;
+	transition: 2s;
+	
+	
+}
+#pic2,#pic4,#pic6,#pic8{
+	transform: rotateY(180deg);
+}
+.box5:hover #pic2,.box5:hover #pic4,.box5:hover #pic6,.box5:hover #pic8{
+	transform: rotateY(0deg);
+}
+.box5:hover #pic1,.box5:hover #pic3,.box5:hover #pic5,.box5:hover #pic7{
+	transform: rotateY(-180deg);
+}
+.box7{
+	height: 45px;
+	width: 1130px;
+	margin-top: 20px;
+    background-color:rgba(150,150,150,0.6);
+	border-radius: 50px;
+	margin-left:19%;
+}
+p1{
+	font-family: 楷体;
+	align-content: center;
+	color: #FFFFFF;
+	font-size: 40px
+	
+}
+.box8{
+	width: 1600px;
+	height: 500px;
+	align-content: space-around;
+	text-align: center;
+	vertical-align: middle;
+}
+.box9{
+	width: 300px;
+	height: 50px;
+	float: left;
+	background-color:rgba(125,235,195,0.7);
+	margin-left: 80px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	vertical-align: middle;
+	border-radius: 50px;
+	margin-top: 15px;
+	
+}
+
+.box9 a{
+		color:#FFFFFF;
+	    font-size: 45px;
+	    font-family: 楷体;
+		text-decoration: none;
+	   }
+.box9 a:hover{
+		color: #C1C1C1;
+	   }
+.box_7{
+	height: 45px;
+	width: 550px;
+	margin-top: 10px;
+    background-color:rgba(150,150,150,0.6);
+	border-radius: 50px;
+	margin-left:525px;
+}

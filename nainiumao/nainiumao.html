@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>naiiniumao</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			width: 1600px;
+			height: 1100px;
+		}
+	.daohang{
+	width: 1600px;
+	height: 45px;
+	background-color:rgba(222,222,222,0.6);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.box1{
+	width: 320px;
+	height: 45px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	vertical-align: middle;
+	float: left;
+	
+	
+}
+a{
+	font-family: 华文新魏;
+	font-size: 40px;
+	font-weight: 1000;
+	text-decoration: none;
+}
+.box1 a{
+		color:#3311D1;
+	   }
+.box1 a:hover{
+		color:#4E4E4E;
+			
+	   }
+		
+body{
+	background:url("背景.jpg");
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+	justify-content: center;
+	align-items: center;
+	
+}
+		.box2{
+			width: 750px;
+			height:390px;
+			background-color: rgba(253,253,253,0.6);
+			margin-left: 30px;
+			margin-top: 15px;
+			border-radius: 50px;
+			align-content: center;
+			justify-content: center;
+			padding-left:30px;
+			padding-right: 30px;
+			padding-top: 30px;
+			float: left
+		}
+		p1{
+			font-family: Blackadder ITC;
+			font-size: 50px;
+		    color:#00043D;
+			
+		}
+		p2{
+			font-family:华文行楷;
+			font-size: 30px;
+			color: rgba(0,0,0,1.00);
+		}
+		.box4{
+			width: 100px;
+			height: 100px;
+			border-radius: 50px;
+			background-image: url("头像.jpg");
+			background-size:100% 100%;
+			float:left;
+			margin-left: 30px;
+			margin-top: 30px;
+			box-shadow: 6px 6px 6px 6px rgba(255,255,255,0.7);
+			
+		}
+		.box5{
+			height: 200px;
+			width: 500px;
+			float: left;
+			align-content: flex-start;
+			vertical-align: middle;
+			margin-left: 40px;
+			margin-top: 40px;
+		}
+		p3{
+			font-family: 方正舒体;
+			font-size: 35px;
+			color: white;
+			float: left;
+		}
+		.big{
+			float: left;
+			
+			height: 400px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.box3{
+			position: relative;
+			width: 350px;
+			height:400px;
+			overflow: hidden;
+			margin-left: 20px;
+			transition: 0.4s;
+			border-radius: 50px;
+		}
+		.pic-box{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			
+			
+		}
+		.pic1{
+			position: absolute;
+			left: 0;
+		    top: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 50px;
+		}
+		.box3:hover{
+			transform: scale(1.1);
+			box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+			z-index: 1;
+		}
+		.text{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			background-color: rgba(255,255,255,0.4);
+			transition: 0.5;
+			transform: translateY(400px);
+			border-radius: 50px;
+		
+		}
+		.box3:hover .text{
+			transform: translateY(0);
+		}
+		p4{
+			font-family: 隶书;
+			font-size: 25px;
+			color: rgba(16,3,53,1.00);
+		}
+		.box6{
+			width: 100px;
+			height: 100px;
+			border-radius: 50px;
+			background-image: url("头像.jpg");
+			background-size:100% 100%;
+			float:left;
+			margin-left: 30px;
+			margin-top: -150px;
+			box-shadow: 6px 6px 6px 6px rgba(255,255,255,0.7);
+			
+		}
+		.box7{
+			height: 200px;
+			width: 500px;
+			float: left;
+			align-content: flex-start;
+			vertical-align: middle;
+			margin-left: 160px;
+			margin-top: -120px;
+		}
+		.box8{
+			width: 1600px;
+			height: 400px;
+			background-color: rgba(160,160,160,0.6);
+			float: left;
+			position: relative;
+			overflow: hidden;
+			
+		}
+		.pic{
+			width: 300px;
+			height: 350px;
+			border-radius: 50px;
+			margin-top: 25px;
+			object-fit: cover;
+			float:left; 
+		}
+		.pic:hover{
+			transform: scale(1.1);
+			box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+			z-index: 1;
+		}
+		li{
+			width: 300px;
+			list-style: none;
+			float: left;
+			padding-right: 20px;
+		}
+		ul{
+			width: 1600px;
+			height: 400px;
+			position: absolute;
+			left: 0;
+		}
+		</style>
+</head>
+
+<body>
+	
+	<div class="daohang">
+	<div class="box1"><a href="../index.html">首页</a></div>
+	<div class="box1"><a href="../lihuamao/lihuamao.html">狸花猫</a></div>
+	<div class="box1"><a href="../daimao/daimao.html">玳瑁猫</a></div>
+	<div class="box1"><a href="nainiumao.html">奶牛猫</a></div>
+	<div class="box1"><a href= "../jumao/jumao.html">大橘猫</a></div>
+	</div>
+	<div class="container">
+	<div class="box2">
+		<table  border="1">
+  <tbody>
+    <tr>
+      <td align="center"><p1>Name</p1></td>
+      <td><p2>奶牛猫</p2></td>
+    </tr>
+    <tr>
+      <td align="center"><p1>Appearance</p1></td>
+      <td><p2>被毛为黑色，胸前和四肢为白色；爪子一般为白色“白手套”；尾巴一般为黑色</p2></td>
+    </tr>
+    <tr>
+      <td align="center"><p1>Chareter</p1></td>
+      <td><p2>好奇心重，生性活泼；对主人依赖性强且非常忠心；精力旺盛，有“一流”的拆家能力，有“猫中哈士奇”的称号</p2></td>
+    </tr>
+    <tr>
+      <td align="center"><p1>Advantage</p1></td>
+      <td><p2>聪明智商高，活泼好动，自娱自乐；身体健康，不易生病；爱撒娇粘人</p2></td>
+    </tr>
+  </tbody>
+</table>
+	</div>
+	<div class="box4"></div>
+	<div class="box5"><p3>你们有看见我的介绍卡片吗?<br />嗷呜~原来在这里啊<br />你应该了解我的大概形象了吧，我们来玩一个小游戏吧，看看那个背影是本喵</p3></div>
+		<div class="big">
+		<div class="box3">
+			<div class="pic-box">
+			<img src="背影1.jpg" class="pic1" alt="no pic"/>
+			</div>
+			<div class="text">
+			<p4>恭喜你！选对咯<br />我们的背影大多数是黑色的</p4>
+			</div>
+			</div>
+			<div class="box3">
+			<div class="pic-box">
+			<img src="背影2.jpg" class="pic1" alt="no pic"/>
+			</div>
+			<div class="text">
+			<p4>哎呀！选错了<br />这是大橘猫的背影啊</p4>
+			</div>
+			</div>
+		</div>
+		<div class="box6"></div>
+	<div class="box7"><p3>嘻嘻，再给大家看看我们照片吧</p3></div>
+		<div class="box8">
+		<ul>
+		<li><img src="1.jpg" class="pic" alt="no pic" /> </li>
+		<li><img src="2.jpg" class="pic" alt="no pic" /> </li>
+		<li><img src="3.jpg" class="pic" alt="no pic" /> </li>
+		<li><img src="4.jpg" class="pic" alt="no pic" /> </li>
+		<li><img src="5.jpg" class="pic" alt="no pic" /> </li>
+		</ul>
+		</div>
+		<script>
+		let ul1 = document.querySelector('ul')
+		ul1.innerHTML += ul1.innerHTML
+		let li1 = document.querySelectorAll('li')
+		ul1.style.width =li1[0].offsetWidth*li1.length+'px'
+		let v=-2
+		function move(){
+			if(ul1.offsetLeft<-ul1.offsetWidth/2){
+				ul1.style.left='0'
+			}
+			ul1.style.left=ul1.offsetLeft + v +'px'
+		}
+		let timer = setInterval(move,40)
+		ul1.addEventListener('mouseover',function(){
+			clearInterval(timer)
+		})
+			ul1.addEventListener('mouseout',function(){
+				timer=setInterval(move,40)
+			})
+		</script>
+		<div class="box4"></div>
+	<div class="box5"><p3>喵~本喵喵有点困了<br />你快去看别的喵吧，我先休息一下咯~</p3></div>
+		
+		
+	</div>
+</body>
+</html>

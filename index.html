@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+	<link href="style1.css" rel="stylesheet" type="text/css" />
+	
+	<script language="javascript">
+	function change(type){
+	let img=document.getElementById("myImg").src;
+	let id=parseInt(img.substr(img.length-5,1));
+	if(type==1){
+		id=(id-1+4)%4;
+	}else{
+		id=(id+1)%4;
+	}
+	document.getElementById("myImg").src=id+".jpg";
+    }
+	</script>
+</head>
+
+<body>
+<div class="daohang">
+	<div class="box"><a href="index.html">首页</a></div>
+	<div class="box"><a href="lihuamao/lihuamao.html">狸花猫</a></div>
+	<div class="box"><a href="daimao/daimao.html">玳瑁猫</a></div>
+	<div class="box"><a href="nainiumao/nainiumao.html">奶牛猫</a></div>
+	<div class="box"><a href="jumao/jumao.html">大橘猫</a></div>
+	</div>
+<div class="box1">
+	<script>
+	let timeId = setInterval(function(){
+		change(1)
+	},2000)
+	const box1=document.querySelector(".box1")
+	 box1.addEventListener('mouseenter',function(){
+		 clearInterval(timeId)})
+	 box1.addEventListener('mouseleave',function(){
+		 clearInterval(timeId)
+	 timeId=setInterval(function(){
+		change(1)
+	},2000)})
+	</script>
+  <input type="button" class="box2" onClick="change(1);"/>
+  <img alt="no pic" src="0.jpg" class="box3" id="myImg" />
+    <input type="button" class="box4"  onClick="change(2);"/>
+		<div style="clear: both"></div>
+	</div>
+	<div class="biaoti"> <h1>中华田园喵</h1></div>
+	<div class="box7"><p1>看看背影有没有认识的猫猫，认识的话可以翻翻看它们的正面噢</p1></div>
+	<div class="box_7"><p1>点它们的名字了解一下他们吧!</p1></div>
+	<div class="box8">
+	<div class="box5">
+		<img alt="no pic" src="狸花猫.jpg" class="box6"  id='pic1'/>
+		<img alt="no pic" src="狸花猫2.jpg" class="box6" id='pic2'/>
+		</div>
+    <div class="box5">
+		<img alt="no pic" src="三花.jpg" class="box6"  id='pic3'/>
+		<img alt="no pic" src="三花2.jpg" class="box6" id='pic4'/>
+		</div>
+    <div class="box5">
+		<img alt="no pic" src="大橘.jpg" class="box6"  id='pic5'/>
+		<img alt="no pic" src="大橘2.jpg" class="box6" id='pic6'/>
+		</div>
+	<div class="box5">
+		<img alt="no pic" src="奶牛.jpg" class="box6"  id='pic7'/>
+		<img alt="no pic" src="奶牛2.jpg" class="box6" id='pic8'/>
+		</div>
+		<div class="box9"><a href="lihuamao/lihuamao.html">狸花猫</a></div>
+	  <div class="box9"><a href="daimao/daimao.html">玳瑁猫</a></div>
+	  <div class="box9"><a href="jumao/jumao.html">大橘猫</a></div>
+	  <div class="box9"><a href="nainiumao/nainiumao.html">奶牛猫</a></div>
+		
+</div>
+</body>
+</html>
